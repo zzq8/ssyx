@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7cd6e6a1-db7b-43eb-b427-dc027bc33366" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/ActivityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/BillType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/CouponRangeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/CouponStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/CouponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/ProcessStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/SkuType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/AdminRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/ActivityInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/ActivityRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/ActivitySku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/CouponInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/CouponRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/CouponUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/Seckill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/SeckillSku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/SeckillSkuNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/SeckillTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/base/BaseMongoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/base/MqRepeatRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/CartInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderDeliver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderReturnApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderReturnReason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/PaymentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/RefundInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/Attr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/AttrGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/CommentReplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuPoster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuStockHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/search/LeaderEs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/search/SkuEs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/sys/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/sys/RegionWare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/sys/Ware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderBill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderWithdraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/UserDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/UserLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/acl/AdminLoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/acl/AdminQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/acl/RoleQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/ActivityRuleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/CouponRuleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/SeckillQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/SeckillSkuNoticeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/SeckillSkuQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/SeckillSkuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/CartInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderConfirmVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderDeliverVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderItemMqVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderItemParamVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderMqVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderSubmitVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderUserQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/StockStatisticsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/AttrGroupQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/CategoryQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/SkuInfoQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/SkuInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/SkuStockLockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/SkuStockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/WareQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/search/LeaderEsQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/search/SkuEsQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/sys/RegionVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/sys/RegionWareQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/LeaderAddressVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/LeaderBillQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/LeaderQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/LeaderVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/UserLoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/UserQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/WeixinVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../尚上优选.md" beforeDir="false" afterPath="$PROJECT_DIR$/../尚上优选.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ULQIR5NNEkY0GtY9TWoR7ycZil" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/Coding/Documents/1024zzq.github.io/SSYX/guigu-ssyx-parent/model/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors",
+    "spring.configuration.checksum": "abdde87c14367c36f031b7892b611f1a",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Coding\Documents\1024zzq.github.io\SSYX\guigu-ssyx-parent\model\src\main\java" />
+      <recent name="C:\Users\Coding\Documents\Guli\guigu-ssyx-parent\common\service-util" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="27bf10a6-db8c-4003-96f5-1e2eb486a5a6" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1194" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\hasee\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cd6e6a1-db7b-43eb-b427-dc027bc33366" name="Changes" comment="" />
+      <created>1692716306241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692716306241</updated>
+      <workItem from="1692716310184" duration="967000" />
+      <workItem from="1692797127833" duration="3284000" />
+      <workItem from="1693104369825" duration="1464000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
