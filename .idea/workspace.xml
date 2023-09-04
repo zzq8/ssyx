@@ -5,109 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cd6e6a1-db7b-43eb-b427-dc027bc33366" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/ActivityType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/BillType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/CouponRangeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/CouponStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/CouponType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/PaymentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/ProcessStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/SkuType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/AdminRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/acl/RolePermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/ActivityInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/ActivityRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/ActivitySku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/CouponInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/CouponRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/CouponUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/Seckill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/SeckillSku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/SeckillSkuNotice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/activity/SeckillTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/base/BaseMongoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/base/MqRepeatRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/CartInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderDeliver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderReturnApply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderReturnReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/OrderSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/PaymentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/order/RefundInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/Attr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/AttrGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/CommentReplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuAttrValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuPoster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/product/SkuStockHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/search/LeaderEs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/search/SkuEs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/sys/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/sys/RegionWare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/sys/Ware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/LeaderWithdraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/UserDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/model/user/UserLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/acl/AdminLoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/acl/AdminQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/acl/RoleQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/ActivityRuleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/CouponRuleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/SeckillQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/SeckillSkuNoticeVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/SeckillSkuQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/activity/SeckillSkuVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/CartInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderConfirmVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderDeliverVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderItemMqVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderItemParamVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderMqVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderSubmitVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/OrderUserQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/order/StockStatisticsVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/AttrGroupQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/CategoryQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/CategoryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/SkuInfoQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/SkuInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/SkuStockLockVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/SkuStockVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/product/WareQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/search/LeaderEsQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/search/SkuEsQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/sys/RegionVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/sys/RegionWareQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/LeaderAddressVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/LeaderBillQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/LeaderQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/LeaderVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/UserLoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/UserQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/vo/user/WeixinVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../尚上优选.md" beforeDir="false" afterPath="$PROJECT_DIR$/../尚上优选.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/ssyx/common/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/ssyx/common/utils/JwtHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/ssyx/common/utils/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/ServiceAclApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/acl/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/acl/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/acl/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/acl/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/acl/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/acl/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/acl/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/ssyx/acl/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/ssyx/common/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/ssyx/common/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/BillType.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/BillType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/ssyx/enums/UserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,12 +36,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.1/mybatis-plus-core-3.4.1-sources.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Compare.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.1/mybatis-plus-core-3.4.1-sources.jar!/com/baomidou/mybatisplus/core/conditions/query/LambdaQueryWrapper.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.1/mybatis-plus-core-3.4.1-sources.jar!/com/baomidou/mybatisplus/core/conditions/query/QueryWrapper.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.1/mybatis-plus-extension-3.4.1.jar!/com/baomidou/mybatisplus/extension/conditions/AbstractChainWrapper.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -146,29 +69,37 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/Coding/Documents/1024zzq.github.io/SSYX/guigu-ssyx-parent/model/src/main/java",
+    "last_opened_file_path": "C:/Users/Fighting/Documents/ssyx/common/common-util/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors",
-    "spring.configuration.checksum": "abdde87c14367c36f031b7892b611f1a",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "1beb7c26905f7d1e6424502e0cfea75d",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fighting\Documents\ssyx\common\common-util\src\main\java" />
+      <recent name="C:\Users\Fighting\Documents\ssyx\service\service-acl\src\main\java\com\atguigu\ssyx\acl\controller" />
       <recent name="C:\Users\Coding\Documents\1024zzq.github.io\SSYX\guigu-ssyx-parent\model\src\main\java" />
       <recent name="C:\Users\Coding\Documents\Guli\guigu-ssyx-parent\common\service-util" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <module name="service-acl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.ssyx.ServiceAclApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,10 +198,25 @@
       <workItem from="1692716310184" duration="967000" />
       <workItem from="1692797127833" duration="3284000" />
       <workItem from="1693104369825" duration="1464000" />
+      <workItem from="1693623480729" duration="21000" />
+      <workItem from="1693623506092" duration="209000" />
+      <workItem from="1693623720631" duration="160000" />
+      <workItem from="1693623892231" duration="98000" />
+      <workItem from="1693623998522" duration="49000" />
+      <workItem from="1693624053161" duration="117000" />
+      <workItem from="1693624177638" duration="26000" />
+      <workItem from="1693624210162" duration="318000" />
+      <workItem from="1693624535016" duration="8000" />
+      <workItem from="1693640979117" duration="4444000" />
+      <workItem from="1693656379259" duration="14919000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
